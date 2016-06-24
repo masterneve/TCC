@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+
+nav {
+    background-color:black;
+   /* background:linear-gradient( #660000,#4d2700);*/
+}
+nav .buscaIndex{
+    color:white;
+    font-size:30px;
+    float:left;
+    margin:5px;
+    padding:5px;
+    
+}
+nav .bemvindoIndex{
+    color:white;
+    font-size:30px;
+    float:right;
+    margin:5px;
+    padding:5px;
+   
+    
+}
+nav .logado{
+    color:#00cc00;
+}
+nav .logout{
+    font-size:30px;
+    text-decoration:none;
+    color:red;
+    float:right;
+     margin:5px;
+     padding:5px;
+     
+}
+nav h3{
+    font-size:20px;
+}
+
+nav  a:hover{
+  color:#00cc00;
+}
+nav  input{
+    margin:5px;
+    color: black;
+    font-size:20px;
+    font-family:tahoma;
+    padding:5px;
+    background-color:#f2f2f2;
+  
+}
+nav .buscar{
+    margin:auto;
+    font-size:30px;
+    color:white;
+    
+}
+nav .btt{
+   background-color:#f2f2f2;
+   border-radius:5px ;
+   font-family:Bangers;
+   font-size:20px;
+   
+}
+nav .btt:hover{
+    background-color:#d9ffb3;
+    color:black;
+}
+nav input:focus{
+    background-color:white;
+    color:#00cc00;
+}
+
+nav input{
+    border-radius:6px;
+}
+nav span{
+    color:white;
+    float:right;
+    margin-right:100px;
+}
+nav .deslog{
+      color:white;
+      float:right;
+      margin-right:50px;
+      margin-left:50px;
+}
+nav  span .painel{
+    text-decoration:none;
+    color:#00cc00;
+}
+nav  span .painel:hover{
+    
+    color:red;
+}
+nav .negativo{
+    font-size:30px;
+    color:red;
+    margin-top: 15px;
+}
+nav .positivo{
+    font-size:30px;
+    color:#d9ffb3;
+    margin-top: 15px;
+}
+
+input[list]{
+
+  font-family: Bangers;
+}
+

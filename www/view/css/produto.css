@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+section {
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    margin-left:10px;
+    text-align:center;
+}
+section img{
+     width: 150px;
+     height: 150px;
+     margin-left:5px;
+}
+section .produto a img:hover{
+     box-shadow:0px 0px 3px black;
+}
+
+section a{
+    text-decoration:none;
+    
+   
+}
+section input:hover{
+ cursor: pointer;
+ background-color: green;
+ color:white;
+ border: 2px solid black;
+
+}
+input{
+    background-color:#e5ffe5;
+    border:2px solid green;
+    font-size: 20px;
+    font-family:Bangers;
+}
+section span{
+    font-size: 30px;
+    color:red;
+    margin-left: 300px;
+}

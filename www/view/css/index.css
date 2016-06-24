@@ -1,0 +1,242 @@
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+
+*{
+ margin:0;   
+}
+body{
+    background-color:white;
+    font-family:Bangers;
+}/*
+.preloaderTotal{
+     background-color:white;
+    width:100%;
+    height:100%;
+    position:absolute;
+    z-index:999;
+}
+*/
+
+#central{
+    width: 70%;     
+    margin-left:200px;
+    margin-top:50px;
+}
+
+aside{
+    width:150px;
+    margin-top:10px;
+    position:absolute;
+   
+    
+}
+aside ul{
+    list-style-type:none;
+    margin-top:50px;
+    /*border: 1px solid gray;*/
+    
+}
+aside ul li{
+    list-style-type:none;
+}
+aside imput{
+    font-size:20px;
+}
+aside ul li a{
+   text-decoration:none;
+   font-size:20px;
+   color:black;
+}
+aside ul li a:hover{
+    color:#00cc00;
+}
+aside ul li a:hover{
+    color:#00cc00;
+}
+aside .titulo{
+    color:#00cc00;
+    font-size:30px;
+    margin-left:-10;
+    
+}
+aside down{
+    color:black;
+    font-size:30px;
+    background-color:red;
+}
+
+
+.gif{
+    width:100%;
+    height:70%;
+    background-color:white;
+    position:absolute;
+    float:left;
+    margin-left:100px;
+   
+  
+    
+}
+.gif img{
+   position:absolute;
+   left :25%;
+}
+
+nav .login{
+    font-size:30px;
+}
+#login {
+  /* background-image: url("http://images8.alphacoders.com/481/481944.jpg");*/
+    margin-left: -300px;
+    position:absolute;
+    height: 35%;   
+    font-size:20px;
+    
+    background-color: rgba(0,0,0,0.5);
+    
+   
+}
+ #login  .areaLogin{
+    /*background-image: url("https://catracalivre.com.br/wp-content/uploads/2013/09/cerveja.jpg");
+   */
+   
+   
+    width:400px;
+    height:300px;
+    display: none;
+    margin:5% auto;
+    border: 2px solid #ccc;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 10px #ccc;
+    background: white;
+    
+    
+}
+
+
+#login input#enviar{
+        
+        background-color: white; /* Green */
+        border: none;
+        color: black;
+        padding: 10px ;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        border:2px solid #4CAF50;
+}
+#login input#enviar:hover{
+     background-color: #4CAF50;
+     color: white;
+}
+.areaLogin .a{
+    width:300px;
+    padding: 5px 71px 5px 72px;
+    text-decoration:none;
+    margin-left:10%;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+.areaLogin .a:hover{
+    background-color:red;
+    color:white;
+}
+
+.areaLogin img{
+    float:right;
+    height:30px;
+    width:30px;
+}
+
+
+.bttlog{
+    position:absolute;
+    top:70px;
+    right:20px;
+    font-size:30px;
+    text-decoration:none;
+    color:white;
+    margin-top: 80px;
+    color: black;
+   
+}
+.bttlog:hover{
+  color:#00cc00;
+}
+#login input{
+    margin-left:10%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+    color:gray;
+    background-color: white;
+    width:300px;
+}
+#idform input#senha {
+    
+        background-image: url("../../../../pass.png");
+        box-sizing: border-box;
+        background-repeat: no-repeat;
+        background-size:40px;
+        padding: 12px 20px 12px 40px;
+        color:red;
+       
+    }
+#login input:focus{
+    
+    border: 3px solid green;
+}    
+#idform input#user {
+    
+        background-image: url("../../../../login.png");
+        box-sizing: border-box;
+        background-repeat: no-repeat;
+        background-size:40px;
+        padding: 12px 20px 12px 40px;
+       
+    }    
+    
+.cadastro{
+    position: absolute;
+    background-color :white;
+    width:500px;
+    margin: 02% 35% ;
+    display: none;
+    
+
+}    
+.cadastro input{
+    
+    margin-left:10%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+    color:black;
+    background-color: white;
+    width:300px;
+}
+.cadastro .cadastrar{
+    border-color: green;
+}
+.cadastro .cadastrar:hover{
+    color: white;
+    background-color: green;
+}
+
+.cadastro .close{
+    border-color: red;
+}
+.cadastro .close:hover{
+    color: white;
+    background-color: red;
+}
+
+#ofertas{
+width: 150px;
+right:10px;
+margin-top: 20px;
+border:3px dotted #990000;
+ 
+}

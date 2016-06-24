@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+
+ h1{
+    text-align:center;
+    padding:10px 0px 10px 0px;
+    }
+
+ /*
+#carrinho{
+    overflow:auto;
+    border:1px solid black;
+    margin:auto;
+    margin-top:20px;
+    
+}*/
+#carrinho table{
+    margin-left:2%;
+    margin-top:20px;
+    font-size:20px;
+    margin: 0px auto;
+    
+}
+#carrinho  thead{
+      background-color:black;
+      color:white;
+      padding:30px;      
+      text-align:center;
+}
+#carrinho table tr td{
+  border: 2px solid gray;
+ 
+  text-align:center;
+
+  
+                    
+}
+#carrinho table tr td input{
+ font-size:20px;
+ text-align:center;
+ border: 2px solid gray;
+}               
+#carrinho table tr td a{
+ font-size:30px;
+ color:red;
+ text-align:center;
+ text-decoration:none;
+ 
+} 
+tfoot{
+    margin-left:40px;
+    font-size:10px;
+    font-size: 10px
+   
+}
+
+
+#carrinho tfoot td .continuar{
+    color: green;
+}
+#carrinho tfoot td .continuar:hover{
+     color:#33cc33;
+}
+#carrinho tfoot td .finalizar{
+
+    color: black;
+}
+#carrinho tfoot td .finalizar:hover{
+     color:green;
+}
+
+tfoot a{
+    margin-right:15px;
+    text-decoration:none;
+    color:green;
+}
+tfoot a:hover{
+    color:#33cc33;
+}
+tfoot input{
+    margin-right:15px;
+    font-size:20px;
+    background-color:white;
+    border:1px solid;
+    
+    
+}
+tfoot input{
+ margin-left: 10px;
+}
+tfoot input:hover{
+    background-color:#33cc33;
+   
+}
+
+.proNeg{
+    text-align:center;
+    color:red;
+    font-size:20px;
+}
+#carrinho .dadosP{
+    width:400px;
+    margin-left:10px;
+    height:300px;
+    border:1px solid black;
+    float:left;
+    margin-top:23px;
+    font-size:20px;
+    
+    
+}
+#carrinho .dadosP .tt{
+
+    color:red;
+    text-align:center;
+    
+}
+#carrinho .dadosP span{
+
+
+    margin-left:10px;
+    
+}
+.log {
+    background-color:red;
+}
+.log span{
+    font-size:20px;
+}
+.log a{
+    font-size:20px;
+    float:right;
+    margin-right:30px;
+    text-decoration:none;
+    color:black;
+}
+.banner{
+
+    position: absolute;
+    right: 10px;
+    top:310px;
+    z-index: 9999;
+    overflow: hidden;
+}
+.dadosC{
+    margin-top: 50px;
+    font-size: 18px;
+}
